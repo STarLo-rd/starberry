@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 2rem;
+  text-align: center;
+}
+
+.card .card_container {
+  margin-bottom: 1rem;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card .card_container:hover {
+  -webkit-transform: scale(1.004);
+          transform: scale(1.004);
+}
+
+.card img {
+  height: 220px;
+  width: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: black;
+  border-radius: 0.4rem;
+}
+
+.searchApartment_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: (minmax(700px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+}
+
+.searchApartment_container .searchApartment_left .left_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4rem;
+}
+
+.searchApartment_container .searchApartment_left .left_1 img {
+  height: 250px;
+  width: 450px;
+}
+
+.searchApartment_container .searchApartment_left .left_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+  overflow-x: scroll;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 2.6rem;
+  max-width: 50vw;
+}
+
+.searchApartment_container .searchApartment_left .left_2 ::-webkit-scrollbar {
+  display: none;
+}
+
+.searchApartment_container .searchApartment_left .left_2 img {
+  height: 110px;
+  width: 200px;
+  margin-right: 1rem;
+  cursor: pointer;
+  -webkit-transition: all 0.5 ease-in;
+  transition: all 0.5 ease-in;
+}
+
+.searchApartment_container .searchApartment_left .left_2 img:hover {
+  -webkit-transform: scale(0.89);
+          transform: scale(0.89);
+}
+
+.searchApartment_container .searchApartment_right .price_details > * {
+  margin-bottom: 0.6rem;
+}
+
+.searchApartment_container .searchApartment_right .price_details h3 {
+  font-size: 1.3rem;
+}
+
+.searchApartment_container .searchApartment_right .price_details h3 span {
+  font-size: 0.7rem;
+}
+
+.searchApartment_container .searchApartment_right .price_details p {
+  font-size: 0.7rem;
+}
+
+.searchApartment_container .searchApartment_right .price_details button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.searchApartment_container .searchApartment_right table {
+  font-size: 0.8rem;
+}
+
+.searchApartment_container .searchApartment_right table tr {
+  margin-bottom: 1rem;
+}
+
+.searchApartment_container .searchApartment_right table tr .title {
+  font-weight: 600;
+}
+
+.searchApartment_container .searchApartment_right table tr .plan {
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: poppins;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+}
+
+.display_title {
+  margin-left: 1.3rem;
+}
+
+.description_result {
+  width: 30vw;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.description_result h2 {
+  margin: 0.5rem;
+}
+/*# sourceMappingURL=index.css.map */

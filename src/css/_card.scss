@@ -1,0 +1,23 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 2rem;
+  text-align: center;
+
+  .card_container {
+    margin-bottom: 1rem;
+    transform: scale(0.9);
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: scale(1.004);
+    }
+  }
+  img {
+    height: 220px;
+    width: 380px;
+    object-fit: cover;
+    background-color: black;
+    border-radius: 0.4rem;
+  }
+}

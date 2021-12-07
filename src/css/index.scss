@@ -1,0 +1,35 @@
+@import "header";
+@import "footer";
+@import "card";
+@import "searchApartment";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
+}
+
+body {
+  font-family: poppins;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+}
+
+.display_title {
+  margin-left: 1.3rem;
+}
+
+.description_result {
+  h2 {
+    margin: 0.5rem;
+  }
+  width: 30vw;
+  text-align: justify;
+  font-size: 0.8rem;
+}
