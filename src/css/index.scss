@@ -1,6 +1,7 @@
 @import "header";
 @import "footer";
 @import "card";
+@import "login";
 @import "searchApartment";
 * {
   margin: 0;
@@ -32,4 +33,11 @@ a {
   width: 30vw;
   text-align: justify;
   font-size: 0.8rem;
+}
+
+.react_loader {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
 }

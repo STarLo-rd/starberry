@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Display from "./Display";
+import { ScatterBoxLoaderComponent } from "./Loader";
+import Header from "./Header";
 const Main = () => {
   const [details, setDetails] = useState([]);
 
@@ -16,8 +18,12 @@ const Main = () => {
   return (
     <>
       {/* <h2>Main page</h2> */}
-      <h3 className="display_title">Property for sale</h3>
-      <Display details={details} />
+
+      <>
+        <Header />
+        <h3 className="display_title">Property for sale</h3>
+        <Display details={details} />
+      </>
     </>
   );
 };

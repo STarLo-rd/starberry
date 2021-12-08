@@ -2,17 +2,13 @@ import React, { useEffect, useState } from "react";
 import { properties } from "./properties";
 import { Link } from "react-router-dom";
 import { BsCurrencyEuro } from "react-icons/bs";
+import { ScatterBoxLoaderComponent } from "./Loader";
 const Display = ({ details }) => {
   const [imageUrl, setImageUrl] = useState([]);
+
   useEffect(() => {}, []);
   return (
     <>
-      {/* <div>
-        <select>
-          <option>Apartment</option>
-          <option></option>
-        </select>
-      </div> */}
       <div className="card">
         {properties && (
           <div className="card">
